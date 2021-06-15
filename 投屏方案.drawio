@@ -1,28 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2021-06-11T11:42:51.155Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36" etag="CMsmMb5AV9WX4o_7eFvQ" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-15T12:23:46.565Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36" etag="SIuuWPStYYi6IzOihlMj" version="14.7.7" type="github">
   <diagram id="s_JA6GVIAV0DJOjNauxI" name="第 1 页">
-    <mxGraphModel dx="2062" dy="1010" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="1075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="e27npa-pexfRa03uqKzi-1" value="手机端（DMS）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="e27npa-pexfRa03uqKzi-1" value="手机端（DMS）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="200" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e27npa-pexfRa03uqKzi-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="e27npa-pexfRa03uqKzi-2">
+        <mxCell id="e27npa-pexfRa03uqKzi-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="e27npa-pexfRa03uqKzi-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="420" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e27npa-pexfRa03uqKzi-2" value="AR眼镜（DMP）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="e27npa-pexfRa03uqKzi-2" value="AR眼镜（DMP）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="560" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="e27npa-pexfRa03uqKzi-3" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="e27npa-pexfRa03uqKzi-1" target="e27npa-pexfRa03uqKzi-2">
+        <mxCell id="e27npa-pexfRa03uqKzi-3" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="e27npa-pexfRa03uqKzi-1" target="e27npa-pexfRa03uqKzi-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="570" as="sourcePoint" />
             <mxPoint x="440" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e27npa-pexfRa03uqKzi-6" value="&lt;h1&gt;注释：&lt;/h1&gt;&lt;div&gt;两种实现方式：&lt;/div&gt;&lt;div&gt;①.移动端将目标资源URL通过HTTP以xml格式描述发送给TV端，TV端进行独立拉流播放展示（音视频图片等），移动端只需要使用DMC进行播放控制即可&lt;/div&gt;&lt;div&gt;②.&amp;nbsp;移动端作为服务端，为TV端提供数据流，需要DMS和DMC两个模块.&lt;/div&gt;&lt;div&gt;选用第一种。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;选用Cling网络库实现UPnP通信。&lt;/div&gt;&lt;p&gt;device: 连接设备&lt;/p&gt;&lt;p&gt;Control Point：控制点。对投屏设备的控制，如播放、暂停、停止等。&lt;/p&gt;&lt;p&gt;Action：继承自Runable的一系列实现类，描述和实现了具体对设备的控制。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="890" width="660" height="310" as="geometry" />
+        <mxCell id="e27npa-pexfRa03uqKzi-6" value="&lt;h1&gt;注释：&lt;/h1&gt;&lt;div&gt;两种实现方式：&lt;/div&gt;&lt;div&gt;①.移动端将目标资源URL通过HTTP以xml格式描述发送给TV端，TV端进行独立拉流播放展示（音视频图片等），移动端只需要使用DMC进行播放控制即可&lt;/div&gt;&lt;div&gt;②.&amp;nbsp;移动端作为服务端，为TV端提供数据流，需要DMS和DMC两个模块.&lt;/div&gt;&lt;div&gt;选用第一种。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;选用Cling网络库实现UPnP通信。&lt;/div&gt;&lt;p&gt;device: 连接设备&lt;/p&gt;&lt;p&gt;Control Point：控制点。对投屏设备的控制，如播放、暂停、停止等。&lt;/p&gt;&lt;p&gt;Action：继承自Runable的一系列实现类，描述和实现了具体对设备的控制。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Platinum库：&lt;/p&gt;&lt;p&gt;1. DLNABrige.java. init() -&amp;gt; DLNABrigt.java.nInit() -&amp;gt; DLNABrige.cpp.nInit()&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;①. 初始化DLNAServer.cpp&amp;nbsp; （包含start、stop ）&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;start：实际调用PLT_UPnP.start() 启动UPnP服务&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="890" width="690" height="840" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
